@@ -14,7 +14,7 @@ const downFile = async (folder, fileName, url) => {
         if (err) {
             console.error('Lỗi khi tạo thư mục:', err)
         } else {
-            console.log('Thư mục và các thư mục cha đã được tạo thành công.')
+            console.log('Thư mục đã được tạo thành công')
         }
     })
 
